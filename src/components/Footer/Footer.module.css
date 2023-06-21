@@ -1,1 +1,35 @@
+.footer_global_styling {
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  padding-top: 66px;
+  display: flex;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+}
 
+.footer_global_styling img {
+  height: 40px;
+  width: 122px;
+  margin-bottom: 44px;
+}
+
+.footer_global_styling div {
+  margin-bottom: 29px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 750px) {
+  .footer_global_styling {
+    padding-top: 62px;
+  }
+  .footer_global_styling img {
+    margin-bottom: 30px;
+  }
+  .footer_global_styling div {
+    font-size: 12px;
+    margin-bottom: 62px;
+  }
+}

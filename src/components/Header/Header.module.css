@@ -1,1 +1,45 @@
+.header_layout {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 100px 20px 100px;
+}
 
+.header_links_list {
+  list-style: none;
+  display: flex;
+  font-weight: 500;
+  font-size: 24px;
+}
+
+.header_links_list a {
+  color: #ff6060;
+  text-decoration: none;
+}
+
+.header_links_list a:hover {
+  text-decoration: underline;
+}
+
+.home_link {
+  margin-right: 57px;
+}
+
+@media screen and (max-width: 750px) {
+  .header_layout {
+    margin: 20px;
+  }
+
+  .header_links_list {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .home_link {
+    margin-right: 10px;
+  }
+
+  .header_layout img {
+    height: 47px;
+    width: 145px;
+  }
+}

@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./index.css";
 import Home from "./pages/Home";
-import AccommodationCard from "./pages/AccommodationCard";
+import AccommodationInfo from "./pages/AccommodationInfo";
 import About from "./pages/About";
 import Error from "./pages/Error";
 import Header from "./components/Header";
@@ -18,7 +18,7 @@ root.render(
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/fiche-logement/:id" element={<AccommodationCard />} />
+        <Route path="/fiche-logement/:id" element={<AccommodationInfo />} />
         <Route path="/a_propos" element={<About />} />
         <Route path="*" element={<Error />} />
       </Routes>

@@ -1,0 +1,54 @@
+.banner_global_styling {
+  width: 100%;
+  margin: 43px 0;
+  height: 223px;
+  border-radius: 25px;
+  background-color: black;
+  border-radius: 25px;
+  position: relative;
+  text-align: center;
+  font-weight: 500;
+  font-size: 48px;
+}
+.banner_global_styling img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 25px;
+  opacity: 0.7;
+}
+
+.banner_global_styling div {
+  color: white;
+  top: 35%;
+  right: 0%;
+  left: 0%;
+  position: absolute;
+}
+.banner_global_styling br {
+  display: none;
+}
+@media screen and (max-width: 750px) {
+  .banner_global_styling {
+    border-radius: 10px;
+    font-size: 24px;
+    text-align: left;
+    margin: 20px 0;
+  }
+  .mobile_home_banner {
+    height: 111px;
+  }
+  .banner_global_styling div {
+    color: white;
+    left: 16px;
+    top: 25%;
+    position: absolute;
+  }
+  .banner_global_styling br {
+    display: unset;
+  }
+
+  .banner_global_styling img {
+    border-radius: 10px;
+  }
+}
