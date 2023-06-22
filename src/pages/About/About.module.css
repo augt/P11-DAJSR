@@ -1,0 +1,20 @@
+.about_global_styling {
+  margin: -20px 100px 43px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.collapses_group {
+  width: 80%;
+}
+
+@media screen and (max-width: 750px) {
+  .about_global_styling {
+    margin: -20px 20px 43px 20px;
+  }
+
+  .collapses_group {
+    width: 100%;
+  }
+}
