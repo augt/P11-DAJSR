@@ -1,0 +1,45 @@
+.error_global_styling {
+  margin: -20px 100px 43px 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.error_message_http_code {
+  font-size: 288px;
+  font-weight: 700;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+.error_message_text {
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.return_home_link {
+  margin-top: 130px;
+  margin-bottom: 100px;
+  color: #ff6060;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 750px) {
+  .error_global_styling {
+    margin: -20px 20px 43px 20px;
+  }
+  .error_message_http_code {
+    margin-top: 140px;
+    font-size: 96px;
+  }
+
+  .error_message_text {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .return_home_link {
+    font-size: 14px;
+  }
+}
