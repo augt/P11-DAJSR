@@ -10,7 +10,6 @@ function Home() {
     <main className={HomeCSS.home_global_styling}>
       <Banner isHomeBanner={true} image="../home-page-banner.jpg" />
       <div className={HomeCSS.cards_group}>
-        {" "}
         {accommodationsList.map((accommodation) => {
           return (
             <Card
