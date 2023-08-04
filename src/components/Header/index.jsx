@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className={HeaderCSS.header_layout}>
-      <img src="../kasa-logo-header.svg" alt="Logo de Kasa" />
+      <h1>
+        <img src="../kasa-logo-header.svg" alt="Kasa" />
+      </h1>
+
       <nav>
         <ul className={HeaderCSS.header_links_list}>
           <li>

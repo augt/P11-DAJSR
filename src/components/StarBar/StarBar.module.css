@@ -1,0 +1,11 @@
+.starbar_global_styling {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+@media screen and (max-width: 750px) {
+  .starbar_global_styling {
+    height: 15px;
+  }
+}

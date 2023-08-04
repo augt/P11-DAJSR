@@ -33,10 +33,10 @@ function Slideshow(props) {
       {pictures.length > 1 && (
         <div className={SlideshowCSS.slideshow_buttons_container}>
           <button onClick={showPreviousPicture}>
-            <img src="../arrow-left.svg" alt="flèche gauche" />
+            <img src="../arrow-left-icon.svg" alt="flèche gauche" />
           </button>
           <button onClick={showNextPicture}>
-            <img src="../arrow-right.svg" alt="flèche gauche" />
+            <img src="../arrow-right-icon.svg" alt="flèche gauche" />
           </button>
         </div>
       )}

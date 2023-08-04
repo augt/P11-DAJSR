@@ -4,6 +4,10 @@
   margin: 40px 100px 20px 100px;
 }
 
+.header_layout h1 {
+  margin: 0;
+}
+
 .header_links_list {
   list-style: none;
   display: flex;

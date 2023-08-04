@@ -1,8 +1,15 @@
 .collapse_global_styling {
+  font-size: 24px;
   background-color: #f7f7f7;
   border-radius: 5px;
-  margin-bottom: 33px;
-  font-size: 24px;
+}
+
+.hide_collapsable_background {
+  height: fit-content;
+}
+
+.small_font {
+  font-size: 18px;
 }
 
 .collapse_global_styling button {
@@ -16,7 +23,7 @@
   color: white;
   font-weight: 500;
   font-size: 24px;
-  padding: 6px 20px;
+  padding: 10px 20px;
 }
 
 .collapse_global_styling button:hover {
@@ -29,18 +36,34 @@
 
 .collapsable_content {
   padding-left: 18px;
-  padding-bottom: 19px;
   padding-right: 27px;
+  padding-bottom: 20px;
+  padding-top: 18px;
 }
 
 .collapsable_content p {
-  margin-bottom: 0;
+  margin: 0;
+  margin-top: 0;
+}
+
+.collapsable_content ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  height: fit-content;
+}
+
+.collapsable_content li {
+  margin-bottom: 4px;
 }
 
 @media screen and (max-width: 750px) {
   .collapse_global_styling {
     font-size: 13px;
-    margin-bottom: 20px;
+  }
+
+  .small_font {
+    font-size: 14px;
   }
 
   .collapse_global_styling button {
