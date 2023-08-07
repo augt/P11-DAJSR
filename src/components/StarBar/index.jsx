@@ -10,11 +10,19 @@ function StarBar(props) {
 
   return (
     <div className={StarBarCSS.starbar_global_styling}>
-      {fullStarsArray.map(() => (
-        <img src="../full-star-icon.svg" alt="icône étoile colorée" />
+      {fullStarsArray.map((item, index) => (
+        <img
+          src="../full-star-icon.svg"
+          alt="icône étoile colorée"
+          key={index}
+        />
       ))}
-      {emptyStarsArray.map(() => (
-        <img src="../empty-star-icon.svg" alt="icône étoile colorée" />
+      {emptyStarsArray.map((item, index) => (
+        <img
+          src="../empty-star-icon.svg"
+          alt="icône étoile colorée"
+          key={index}
+        />
       ))}
     </div>
   );

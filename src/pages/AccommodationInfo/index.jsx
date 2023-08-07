@@ -26,8 +26,8 @@ function AccommodationInfo() {
             {accommodation.location}
           </div>
           <div className={AccommodationInfoCSS.tags_block}>
-            {accommodation.tags.map((tag) => (
-              <Tag label={tag} />
+            {accommodation.tags.map((tag, index) => (
+              <Tag label={tag} key={index} />
             ))}
           </div>
         </div>
