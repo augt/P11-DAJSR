@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CollapseCSS from "./Collapse.module.css";
 
 function Collapse(props) {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   return (
     <div
       className={

@@ -20,6 +20,10 @@
   text-decoration: none;
 }
 
+a.active_page {
+  text-decoration: underline;
+}
+
 .header_links_list a:hover {
   text-decoration: underline;
 }
